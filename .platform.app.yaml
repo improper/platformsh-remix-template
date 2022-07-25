@@ -6,6 +6,7 @@ web:
     start: npm run start
   locations:
     '/':
+      root: public
       allow: true
       scripts: false
       passthru: true
