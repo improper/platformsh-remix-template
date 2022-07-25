@@ -1,7 +1,7 @@
 version: 1
 info:
   id: remix/basic
-  name: Directus
+  name: Remix Basic
   description: |
     <p>This template demonstrates deploying a basic Remix app to the cloud on Platform.sh. It is derived from `npx create-remix`</p>
     <p>Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.</p>
@@ -16,7 +16,7 @@ info:
         Node.js 14<br />
         Remix<br />
 initialize:
-  repository: https://github.com/platformsh-templates/directus.git@master
+  repository: https://github.com/improper/platformsh-remix-template.git@main
   config: null
   files: []
   profile: Directus
