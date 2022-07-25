@@ -9,6 +9,11 @@
 
 This template demonstrates how to deploy a Remix app derived from `npx create-remix` to the cloud on Platform.sh
 
+## Changes
+
+* Adds `.platform/routes.yaml` so that we can point domains where we want them to go.
+* Adds `.platform.app.yaml` so that we can define what our servers & deployments should look like.
+
 ## Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
