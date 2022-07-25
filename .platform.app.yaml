@@ -1,0 +1,16 @@
+name: remix-app
+type: nodejs:14
+
+web:
+  commands:
+    start: npm run start
+  locations:
+    '/':
+      allow: true
+      scripts: false
+      passthru: true
+
+hooks:
+  build: |
+    npm install
+    npm run build
